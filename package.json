@@ -1,0 +1,28 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "an app that ask you questions and find matching friends",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barneybean/Friend-Finder.git"
+  },
+  "keywords": [
+    "firend-finder"
+  ],
+  "author": "Chunjin (William)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Barneybean/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/Barneybean/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chosen": "0.0.2",
+    "express": "^4.16.3"
+  }
+}
