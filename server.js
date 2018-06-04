@@ -5,7 +5,7 @@ var bodyParser = require("body-parser");
 
 //set up express
 var app = express();
-var  PORT = process.env.PORT || 7700;
+var PORT = process.env.PORT || 7700;
 
 //set up the express app to handle data parsing
 app.use(bodyParser.urlencoded({extended:true}));
@@ -15,3 +15,9 @@ app.use(bodyParser.json());
 app.listen(PORT, function () {
     console.log("App listening on PORT: " + PORT);
 })
+
+//to call get function from htmlRoutes.js  #### must use path.join #### must define after listening to port
+require(path.join(__dirname, "./app/routing/htmlRoutes.js"))(app);
+require(path.join(__dirname, "./app/routing/apiRoutes.js"))(app);
+
+
