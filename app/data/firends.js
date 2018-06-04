@@ -31,7 +31,7 @@ var allFriends = [
         ]
     },{
         "name": "Jeremiah Scanlon",
-        "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+        "photo": "https://vision.org.au/radio/wp-content/uploads/sites/6/2017/07/Paul-Scanlon-3.jpg",
         "scores": [
         "5",
         "2",
@@ -61,7 +61,7 @@ var allFriends = [
         ]
     },{
         "name": "Lou Ritter",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+        "photo": "https://pbs.twimg.com/profile_images/756099148340920320/1L8AsR06_400x400.jpg",
         "scores": [
         "4",
         "3",
@@ -76,7 +76,7 @@ var allFriends = [
         ]
     },{
         "name": "Jordan Biason",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+        "photo": "http://www.letsplaytennis.com/uploads/photos/28217.jpg",
         "scores": [
         "4",
         "4",
@@ -91,7 +91,7 @@ var allFriends = [
         ]
     },{
         "name": "Wonder Woman",
-        "photo": "https://www.dccomics.com/characters/wonder-woman",
+        "photo": "https://media2.s-nbcnews.com/i/newscms/2017_34/1277882/gal-gadot-wonder-woman-today-tease-170824_67cfdfdf56e7e4fb7509d997f5afcc6d.JPG",
         "scores": [
         "5",
         "4",
@@ -105,8 +105,8 @@ var allFriends = [
         "3"
         ]
     },{
-        "name": "Bob",
-        "photo": "http://google.com",
+        "name": "Sponge Bob",
+        "photo": "https://myhero.com/images/guest/g237060/hero71563/g237060_u84562_SpongeBob-SquarePants-p35.jpg",
         "scores": [
         "2",
         "3",
@@ -121,7 +121,7 @@ var allFriends = [
         ]
     },{
         "name": "Chicken",
-        "photo": "https://pbs.twimg.com/profile_images/447374371917922304/P4BzupWu.jpeg",
+        "photo": "https://media.giphy.com/media/l3vR9IEU6nYAmZyoM/source.gif",
         "scores": [
         "5",
         "1",
@@ -136,7 +136,7 @@ var allFriends = [
         ]
     },{
         "name": "Ashley Winnop",
-        "photo": "https://www.google.com/search?q=cats&safe=active&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjpnpK7g7bbAhVOnlkKHZcUA-0Q_AUICigB&biw=1535&bih=810#imgrc=SSHo4P2XhBrZTM:",
+        "photo": "http://ucfglobalperspectives.org/main/wp-content/uploads/2013/09/Nicole-Medina.jpg",
         "scores": [
         "4",
         "2",
@@ -151,7 +151,7 @@ var allFriends = [
         ]
     }, {
         "name": "Justin Moore",
-        "photo": "https://teachprivacy.com/the-funniest-hacker-stock-photos-2-0/",
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/510aKCzZ6vL._SY355_.jpg",
         "scores": [
         "5",
         "5",
