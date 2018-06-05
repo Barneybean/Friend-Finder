@@ -4,7 +4,7 @@ var express = require("express");
 
 var app = express();
 // console.log(friends);//friends is a arrary
-module.exports = function (app) {
+module.exports = function (app) {  //app is not chicken its app.post
     app.post("/api/friends", function (req, res) {
 
         var newUserData = req.body;
@@ -35,6 +35,12 @@ module.exports = function (app) {
 
         // send result back to survey.html as "data", there results will be organized into modals
         res.json(MatchingFriend);
+        var newFriendObj = {
+            "name": newUserData.name,
+            "photo": newUserData.photo,
+            "scores": newUserData.scores
+        }
+        friends.push(newFriendObj);
     });  
 };
 

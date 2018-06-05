@@ -207,8 +207,8 @@
       }
     };
 
-    for (var chicken in config) {
-      $(chicken).chosen(config[chicken]);
+    for (var chicken in config) { //chicken is the keys in obj    
+      $(chicken).chosen(config[chicken]); //[] is used as obj.key
     }
 
     // Capture the form inputs

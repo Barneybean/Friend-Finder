@@ -16,8 +16,8 @@ app.listen(PORT, function () {
     console.log("App listening on PORT: " + PORT);
 })
 
-//to call get function from htmlRoutes.js  #### must use path.join #### must define after listening to port
-require(path.join(__dirname, "./app/routing/htmlRoutes.js"))(app);
-require(path.join(__dirname, "./app/routing/apiRoutes.js"))(app);
+//to call get function from htmlRoutes.js  #### can use path.join #### must define after listening to port
+require("./app/routing/htmlRoutes.js")(app);
+require("./app/routing/apiRoutes.js")(app);
 
 
